@@ -1,4 +1,5 @@
-package management;
-
-public class Director extends Manager{
-}
+//package management;
+//
+//public class Director extends Manager{
+//
+//}

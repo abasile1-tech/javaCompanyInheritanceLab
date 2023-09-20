@@ -13,17 +13,17 @@ public class ManagerTest {
     private Manager manager;
     @Before
     public void before() {
-        manager = new Manager("John", 2, 40_000);
+        manager = new Manager("John", 2, 40_000, "Software");
     }
     @Test
     public void canRaiseSalary() {
         manager.raiseSalary(2000);
-        assertEquals(42000, manager.getSalary());
+        assertEquals(42000, manager.getSalary(), 0.0);
     }
 
     @Test
     public void canPayBonus() {
         manager.payBonus();
-        assertEquals(40400, manager.getSalary());
+        assertEquals(40400, manager.getSalary(), 0.0);
     }
 }

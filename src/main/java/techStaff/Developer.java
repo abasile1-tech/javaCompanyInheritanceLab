@@ -1,6 +1,6 @@
-package techStaff;
-
-import staff.Employee;
-
-public class Developer extends Employee {
-}
+//package techStaff;
+//
+//import staff.Employee;
+//
+//public class Developer extends Employee {
+//}
