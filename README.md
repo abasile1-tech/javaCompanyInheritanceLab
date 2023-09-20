@@ -17,8 +17,8 @@ You should use TDD, inheritance, packages and abstract classes for this.
 - Add a getter method for `deptName`.
 - Test all methods including `raiseSalary` and `payBonus`
 
-#### Create subclasses of `Employee`: `Developer` and `DatabaseAdmin` in a package called techStaff.
-Create 2 new classes for `Developer` and `DatabaseAdmin`.
+#### Create subclasses of `Employee`: `Developer` and `DatabaseAdminTest` in a package called techStaff.
+Create 2 new classes for `Developer` and `DatabaseAdminTest`.
 - These should take in the same parameters as `Employee` and pass them to `Employee` constructor.
 - Again test all methods for both classes.
 
