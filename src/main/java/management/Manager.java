@@ -15,8 +15,8 @@ public class Manager extends Employee {
         super(name, ni, salary);
         this.deptName = deptName;
     }
-
     public String getDeptName() {
         return deptName;
     }
+
 }
