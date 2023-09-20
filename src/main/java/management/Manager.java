@@ -9,4 +9,14 @@ import staff.Employee;
 //        - Add a getter method for `deptName`.
 //        - Test all methods including `raiseSalary` and `payBonus`
 public class Manager extends Employee {
+    private String deptName;
+
+    public Manager(String name, int ni, double salary, String deptName) {
+        super(name, ni, salary);
+        this.deptName = deptName;
+    }
+
+    public String getDeptName() {
+        return deptName;
+    }
 }
